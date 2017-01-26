@@ -1,6 +1,7 @@
 package CCNS;
 import java.io.*;
 import java.util.Scanner;
+
 public class PlayfairCipher {
     static String[][] KeyMatrix;
     static public String formatInput(String text) {
