@@ -2,8 +2,11 @@ import java.util.Scanner;
 class Calculator {
     public static int add(int n1, int n2){
         return n1+n2;
+        
     }
-    
+    public static int sub(int n1, int n2){
+        return n1-n2;
+    }    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int choice,n1,n2;
