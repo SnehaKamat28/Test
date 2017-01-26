@@ -3,7 +3,9 @@ class Calculator {
     public static int add(int n1, int n2){
         return n1+n2;
     }
-    
+    public static int mul(int n1, int n2){
+        return n1+n2;
+    }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int choice,n1,n2;
@@ -15,6 +17,8 @@ class Calculator {
             n2=in.nextInt();
             switch(choice){
                 case 1: System.out.println(add(n1, n2));  
+                        break;
+                case 3: System.out.println(mul(n1, n2));  
                         break;
             }
         }while(choice!=0);
