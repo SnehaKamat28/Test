@@ -18,7 +18,7 @@ class Calculator {
         do{
             System.out.println("1:+\t2:-\t3:*\t4:/\t0:Exit");
             choice=in.nextInt();
-            System.out.print("Enter nos: ");
+            System.out.print("Enter numbers: ");
             n1=in.nextInt();
             n2=in.nextInt();
             switch(choice){
