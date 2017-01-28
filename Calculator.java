@@ -19,11 +19,11 @@ class Calculator {
             n1=in.nextInt();
             n2=in.nextInt();
             switch(choice){
-                case 1: System.out.println(add(n1, n2));  
+                case 1: System.out.println("Addition= "add(n1, n2));  
                         break;
-                case 3: System.out.println(mul(n1, n2));  
+                case 3: System.out.println("Product= "mul(n1, n2));  
                         break;
-                case 4: System.out.println(div(n1, n2));  
+                case 4: System.out.println("Division= "div(n1, n2));  
                         break;
             }
         }while(choice!=0);
