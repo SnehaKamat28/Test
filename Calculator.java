@@ -12,6 +12,7 @@ class Calculator {
     public static int div(int n1, int n2){
         return n1/n2;
     }
+    //this is a test comment aother
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int choice,n1,n2;
