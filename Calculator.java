@@ -28,4 +28,5 @@ class Calculator {
             }
         }while(choice!=0);
     }
+    System.out.println("Edited at Github workshop");
 }
